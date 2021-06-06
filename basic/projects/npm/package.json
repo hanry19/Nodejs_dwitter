@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app",
+    "ellie": "node app"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ellie",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test project"
+  }
+}
