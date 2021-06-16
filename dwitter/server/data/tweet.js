@@ -43,7 +43,7 @@ export async function getById(id) {
 
 export async function create(text, userId) {
   const tweet = {
-    id: Date.now().toString(),
+    id: new Date().toString(),
     text,
     createdAt: new Date(),
     userId,
